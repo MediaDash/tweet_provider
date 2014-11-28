@@ -26,3 +26,73 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+####  User Stories
+
+  I should be able to access a visualization by entering a hashtab that uniquely id's the event I want to track
+
+  I want to see tweets and instagrams related to this event
+
+  I want to see new tweets and instagrams as they come in
+
+  I want to see popular poosts for a recent time interval
+
+  I want flashy animations to cycle through posts
+
+  I want my customers to want to appear on this dashboard
+    attribution
+    accolades
+
+  I shouldn't see profanity/filters available
+
+  I should be able to configure the time interval that i want to see posts from.
+
+
+### MVP
+
+  I should be able to access a visualization by entering a hashtab that uniquely id's the event I want to track
+
+  I want to see tweets and instagrams related to this event
+
+### MVP WITH STYLE
+
+  I want to see new tweets and instagrams as they come in
+
+  I should be able to configure the time interval that i want to see posts from.
+
+### ADDED FEATURES
+
+  CSS styles
+
+  Animations
+
+  Data over time features?!?
+
+------------------------------------------------------------------------------
+
+#### Structure and Architecture
+
+Module build: Each API exsits in isolation
+  Each API has own wrapper to best use information recieved
+
+  These wrappers are interfaced through a Query dashboard that all searches are run from, packages JSON for each API and recieved info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
